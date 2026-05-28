@@ -27,8 +27,8 @@ Comprehensive guide to OpenCode Go models with capabilities, costs, and routing 
 
 | Models                                                                                                             | Endpoint                                         | Format                   |
 | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------ | ------------------------ |
-| GLM-5, GLM-5.1, Kimi K2.6, Kimi K2.5, MiMo-V2-Pro, MiMo-V2-Omni, Qwen3.5 Plus, Qwen3.6 Plus, DeepSeek V4 Pro/Flash | `https://opencode.ai/zen/go/v1/chat/completions` | OpenAI-compatible        |
-| **MiniMax M2.5, MiniMax M2.7**                                                                                     | `https://opencode.ai/zen/go/v1/messages`         | **Anthropic-compatible** |
+| GLM-5, GLM-5.1, Kimi K2.6, Kimi K2.5, MiMo-V2-Pro, MiMo-V2-Omni, DeepSeek V4 Pro/Flash | `https://opencode.ai/zen/go/v1/chat/completions` | OpenAI-compatible        |
+| **MiniMax M2.5, MiniMax M2.7, Qwen3.5 Plus, Qwen3.6 Plus, Qwen3.7 Max**                                                                                     | `https://opencode.ai/zen/go/v1/messages`         | **Anthropic-compatible** |
 
 **Why this matters:** MiniMax models expect Anthropic format natively. oc-go-cc detects MiniMax models and routes them to the correct endpoint automatically without transformation. This means MiniMax models work seamlessly with Claude Code.
 
